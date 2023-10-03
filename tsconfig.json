@@ -1,0 +1,17 @@
+{
+  "exclude": ["node_modules", "**/*/dist", "**/*.test.ts", "___*"],
+  "compilerOptions": {
+    "noEmit": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true,
+    "module": "ES2022",
+    "target": "ES2021",
+    "strict": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "moduleResolution": "Node"
+  }
+}
